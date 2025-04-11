@@ -1,8 +1,8 @@
 import dotenv from "dotenv";
 dotenv.config();
-import fs from "fs";
-import { dirname, join } from "path";
-import { fileURLToPath } from "url";
+import fs from "node:fs";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
 import cors from "cors";
 import express from "express";
 import helmet from "helmet";

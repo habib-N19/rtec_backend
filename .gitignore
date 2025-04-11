@@ -3,3 +3,6 @@ node_modules
 dist
 .env
 .package.lock.yml
+logs
+biome1.json
+plan.txt

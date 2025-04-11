@@ -21,7 +21,7 @@ export const errorMiddleware = (
   err: Error & { statusCode: number; isOperational: boolean },
   req: Request,
   res: Response,
-  next: NextFunction,
+  _next: NextFunction,
 ) => {
   const statusCode = err.statusCode || 500;
   logger.error(`${statusCode} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
@@ -49,7 +49,11 @@ export const errorMiddleware = (
   });
 };
 
-export const catchAsync = (fn: Function) => {
+type ExpressResponse = undefined | Response | Promise<undefined | Response>;
+
+export const catchAsync = (
+  fn: (req: Request, res: Response, next: NextFunction) => ExpressResponse,
+) => {
   return (req: Request, res: Response, next: NextFunction) => {
     Promise.resolve(fn(req, res, next)).catch(next);
   };
