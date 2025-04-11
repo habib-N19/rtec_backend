@@ -1,0 +1,22 @@
+{"code":"28P01","file":"auth.c","length":104,"level":"error","line":"324","message":"❌ Database connection failed! password authentication failed for user \"rtec_dev\"","name":"error","routine":"auth_failed","severity":"FATAL","stack":"error: password authentication failed for user \"rtec_dev\"\n    at C:\\Users\\ASUS\\Desktop\\dwmtec\\RTEC-backend\\node_modules\\.pnpm\\pg-pool@3.8.0_pg@8.14.1\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at testConnection (c:\\Users\\ASUS\\Desktop\\dwmtec\\RTEC-backend\\src\\config\\db.ts:15:18)\n    at startServer (c:\\Users\\ASUS\\Desktop\\dwmtec\\RTEC-backend\\src\\index.ts:34:3)","timestamp":"2025-04-09 20:59:37:5937"}
+{"level":"info","message":"Server running on port 8000 in development mode","timestamp":"2025-04-09 20:59:37:5937"}
+{"level":"info","message":"✅ Database connection successful!","timestamp":"2025-04-09 21:11:57:1157"}
+{"level":"info","message":"Server running on port 8000 in development mode","timestamp":"2025-04-09 21:11:57:1157"}
+{"level":"info","message":"SIGINT signal received: closing HTTP server","timestamp":"2025-04-10 00:22:40:2240"}
+{"level":"info","message":"✅ Database connection successful!","timestamp":"2025-04-10 00:25:39:2539"}
+{"level":"info","message":"Server running on port 8000 in development mode","timestamp":"2025-04-10 00:25:39:2539"}
+{"level":"info","message":"✅ Database connection successful!","timestamp":"2025-04-10 00:28:34:2834"}
+{"level":"info","message":"Server running on port 8000 in development mode","timestamp":"2025-04-10 00:28:34:2834"}
+{"level":"http","message":"GET /health 200 - 19ms","timestamp":"2025-04-10 20:36:52:3652"}
+{"level":"info","message":"✅ Database connection successful!","timestamp":"2025-04-11 18:51:43:5143"}
+{"level":"info","message":"Server running on port 8000 in development mode","timestamp":"2025-04-11 18:51:43:5143"}
+{"level":"info","message":"✅ Database connection successful!","timestamp":"2025-04-11 19:14:35:1435"}
+{"level":"info","message":"Server running on port 8000 in development mode","timestamp":"2025-04-11 19:14:35:1435"}
+{"level":"info","message":"✅ Database connection successful!","timestamp":"2025-04-11 19:15:32:1532"}
+{"level":"info","message":"Server running on port 8000 in development mode","timestamp":"2025-04-11 19:15:32:1532"}
+{"level":"info","message":"✅ Database connection successful!","timestamp":"2025-04-11 19:16:31:1631"}
+{"level":"info","message":"Server running on port 8000 in development mode","timestamp":"2025-04-11 19:16:31:1631"}
+{"level":"info","message":"✅ Database connection successful!","timestamp":"2025-04-12 01:17:05:175"}
+{"level":"info","message":"Server running on port 8000 in development mode","timestamp":"2025-04-12 01:17:05:175"}
+{"level":"info","message":"✅ Database connection successful!","timestamp":"2025-04-12 01:17:26:1726"}
+{"level":"info","message":"Server running on port 8000 in development mode","timestamp":"2025-04-12 01:17:26:1726"}

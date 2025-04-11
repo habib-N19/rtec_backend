@@ -1,0 +1,90 @@
+erDiagram
+    %% Core User & Authentication
+    User ||--o{ Student : "can be"
+    User ||--o{ Alumni : "can be"
+    User ||--o{ Faculty : "can be"
+    User ||--o{ Session : has
+    User ||--o{ Activity : logs
+    User ||--o{ BlockedUser : blocks
+    User ||--o{ Verification : submits
+    User ||--o{ Post : creates
+    User ||--o{ Comment : writes
+    User ||--o{ Reaction : gives
+    User ||--o{ StudyMaterial : uploads
+    User ||--o{ Resume : owns
+    User ||--o{ Notification : receives
+    User }|--|| Role : has
+
+    %% Verification & Academic
+    Verification }|--|| Department : "belongs to"
+    Student }|--|| Department : "belongs to"
+    Student ||--o{ AcademicResult : has
+    Student ||--o{ Achievement : earns
+    Student ||--o{ Scholarship : receives
+    Student ||--o{ ClubMembership : joins
+    Student ||--o{ Mentorship : "receives as mentee"
+    Department ||--o{ Course : offers
+    Department ||--o{ DeptAnnouncement : publishes
+    Course ||--o{ AcademicResult : generates
+    Course ||--o{ StudyMaterial : contains
+    Course ||--o{ CourseAssignment : scheduled
+
+    %% Alumni & Professional
+    Alumni ||--o{ WorkExperience : has
+    Alumni ||--o{ Skill : possesses
+    Alumni ||--o{ JobPosting : creates
+    Alumni ||--o{ Mentorship : "provides as mentor"
+    Alumni ||--o{ AlumniDonation : makes
+    Alumni ||--o{ SuccessStory : shares
+    Skill ||--o{ SkillEndorsement : receives
+
+    %% Faculty & Academic Staff
+    Faculty }|--|| Department : "belongs to"
+    Faculty ||--o{ Publication : authors
+    Faculty ||--o{ CourseAssignment : teaches
+    Faculty ||--o{ OfficeHour : schedules
+    Faculty ||--o{ Committee : serves
+
+    %% Club Management
+    Club ||--o{ ClubMembership : has
+    Club ||--o{ Event : organizes
+    Club ||--o{ ClubAnnouncement : publishes
+    Club ||--o{ ClubGallery : showcases
+    Club ||--o{ ClubTransaction : records
+    Club ||--o{ Post : features
+    Event ||--o{ EventRegistration : receives
+    Event ||--o{ EventGallery : contains
+
+    %% Social Platform
+    Post ||--o{ Comment : has
+    Post ||--o{ Reaction : receives
+    Post ||--o{ Media : contains
+    Post ||--o{ Tag : tagged
+    Post ||--o{ UserMention : mentions
+    Post ||--o{ Share : shared
+    Post ||--o{ SavedPost : saved
+    Comment ||--o{ Comment : "replies to"
+    Comment ||--o{ Reaction : receives
+    Comment ||--o{ UserMention : mentions
+
+    %% Blood Donation
+    BloodDonor ||--|| User : "profile of"
+    BloodDonor ||--o{ BloodDonation : gives
+    BloodRequest ||--|| User : requested
+    BloodRequest ||--o{ BloodDonation : fulfilled
+
+    %% Study Materials
+    StudyMaterial ||--o{ Tag : categorized
+    StudyMaterial ||--o{ MaterialReview : receives
+    NoteBot }|--o{ Course : summarizes
+    NoteBot ||--o{ StudyMaterial : generates
+
+    %% Resume Builder
+    Resume }|--|| ResumeTemplate : uses
+    Resume ||--o{ JobApplication : submitted
+
+    %% Additional Relationships
+    Role }|--o{ Permission : includes
+    Post }|--o{ Club : "belongs to"
+    Post }|--o{ Department : "specific to"
+    JobPosting ||--o{ JobApplication : receives

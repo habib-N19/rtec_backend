@@ -1,0 +1,56 @@
+{
+  "name": "rtec-backend",
+  "version": "1.0.0",
+  "description": "Enterprise-grade Express backend with TypeScript and Drizzle ORM",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon --exec tsx src/index.ts",
+    "dev:win": "set NODE_ENV=development&& nodemon --exec tsx src/index.ts",
+    "build": "tsc",
+    "start": "NODE_ENV=production node dist/index.js",
+    "start:win": "set NODE_ENV=production&& node dist/index.js",
+    "db:generate": "drizzle-kit generate:pg",
+    "db:push": "drizzle-kit push:pg",
+    "db:studio": "drizzle-kit studio",
+    "lint": "biome lint src",
+    "format": "biome format src --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "lint-staged": {
+    "*": ["biome check --write --no-errors-on-unmatched --files-ignore-unknown=true"]
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["express", "typescript", "drizzle", "postgresql", "api"],
+  "author": "habibur nabi arafat",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.14.1",
+    "winston": "^3.17.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/node": "^22.13.14",
+    "@types/pg": "^8.11.11",
+    "drizzle-kit": "^0.30.6",
+    "drizzle-orm": "^0.41.0",
+    "husky": "^8.0.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.7.0",
+    "typescript": "^5.8.2"
+  }
+}

@@ -1,0 +1,271 @@
+hello.. the project we are planning to take on is a  campus platform project. This conversation will be shared with the designers for the project and also to the developers.. Please note that this project will be completed contributed by the students of the college.. before we start on requirement analysis let's share you a brief history or context of the project...
+the college is a bangladesh university of textiles affiliated college for bachelor's in textile engineering , established in rangpur , bangladesh name dedicated to Dr M A Wazed Miah who was a renowned physicist..
+so the college name dr. ma wazed miah textile engineering college.... up untill  now only one batch is gradudated from this campus and i myself and the other developer and the designers are from second batch.. each year there are like average 120 students admits here by an admission test.. so the platform user will grow 120 each year...
+
+there are like four departments , yarn , fabric, apparel and wet processs..
+
+now let's start talking about the plan of the project...
+
+so, we are building this project/platform in order to provide answer or solutions to two parties in broad sense. one-> when new students want to admit here, they have a tone of questions , queries and such .. so what we want to achieve is to answer them their queries with our platform..so here they can check about our campus, we have a strong alumini , club activities and so much more(sharing in details in down)
+two-> for the students who graduated or currrently stuudying in the campus.. what for them? well basically two faces.. one is with making the club's operations completly via the platform, and connecting all  of the current student's with already gradutated ones.. with these goals we kind of had two three dicussions, asked the club committies for their requiements on what they want to showcase on their landing pages and such...apart from this.. let's now talk about the core functionalities and your work is to think as a senior project manager who knows his work around with  mern stack, nextjs, typescript, postgress, graphql , prisma, docker, also knows how to give instrutions to designers their brief and such...
+
+now let me share my plans with you on this project.....
+
+1.the initial thought is there won't be any huge budget to host, maintain and doing other things..okay? so to get the domain what we want to do is to get as much sub domain as possible.. i mean let's say we have the alumni.. so our main domain will be [dwmtec.com.bd](http://dwmtec.com.bd/)  or something.. but to access the alumni we want to do like  [alumni.dwmtec.com.bd](http://alumni.dwmtec.com.bd/), for like  career club, [dcc.dwmtec.com](http://dcc.dwmtec.com/) this format..
+2. in the  main [dwmtec.com.bd](http://dwmtec.com.bd/)'s landing page, we will have like the main focus on the what we offer, what we do, campus activities like campus day, any batch's batch day, orientation, any club's program's feature , campus's images/lab pictures or any preferable term you can think of here, brief club's overview cards or sections, success stories of students as featured like they got a new job promoted to a high position , teacher's section who are teaching , subject reviews, contact info for accademic and other people's section, exam results of recent batch's or anything relevent...
+3. here are the brief requiements of the clubs from their committies->
+i->dwmtec deen'e circle(religion practicing club)=># Deen’e Circle
+
+- [ ]  Donation
+- [ ]  Sponsorship
+- [ ]  Activities
+- upcoming
+- recent
+- previous
+- [ ]  Gallery view
+- [ ]  Islamic Library - booklists, book reviews, books pdf/ read online
+- [ ]  Frequently asked questions : doubts, solve,
+- [ ]  about us
+- [ ]  committee
+- [ ]  blogs/weekly posts
+- [ ]  Suggestions
+- [ ]  contacts info
+    
+    ii-> dwmtec career club-> # DCC
+    
+- [ ]  Upcoming
+- [ ]  DCC Logo
+- About us
+- Contact
+- Featuring segment(recent activities as summaries)
+-Gallery
+-Battle of Minds Season-01
+-Battle of Minds Season-02
+-DCC Committee Panel
+-FAQ
+-Our online seminar
+-Our Previous Partners
+-Industry Visit
+-Articles
+-Membership
+-Videos
+-Our Social site links
+-Career Guidance
+-Advisory Panel
+
+iii->dwmtec debate club--> # DDC
+
+- [ ]  welcoming interface, welcome to DDC(current committee)[temp banner type intro type ]
+- [ ]  about us section mission vision
+- [ ]  Moderator information, prev and previous
+- [ ]  profiling(present committee, previous committee history) but in the home page there only be the current committee info as cards,
+- [ ]  member information's(card based),
+- [ ]  achievements / per year
+- [ ]  upcoming programs,
+- [ ]  previous programs,
+- [ ]  social activities( extra club activities)
+- [ ]  member award( regular members consistency members award)[ those who will get principal award they will be showcased here)
+- [ ]  debater award( those who debates internally with other campuses, perform in debates)
+- [ ]  Social links(yt, fb pages, LinkedIn, others)
+- [ ]  Blogs,
+- [ ]  Others
+- Gallery view
+- contact us,
+- sponsorship
+- 
+
+iii->dwmtec cultural club-> # Rangtuli
+
+✓welcoming interface,
+✓welcome to Rangtuli
+✓About us
+
+✓Featuring segment(recent activities as summaries)
+
+- বসন্ত বরণ উৎসব (১৪ ফ্রেব্রুয়ারি, ২০২২)
+- চৈত্র নিশাগম (২৯ মার্চ, ২০২২)
+- Campus Day 2k22 (1st November, 2022)
+- চা উৎসব ২০২২ (১১ নভেম্বর, ২০২২)
+- পিঠা উৎসব ১৪২৯ (১৯ জানুয়ারি, ২০২৩)
+- শ্রাবণের বর্ষায়ন (২৬ জুলাই, ২০২৩)
+- Campus Day 2k23 ( 9th November, 2023)
+- পিঠা উৎসব ১৪৩০ (১&২ ফ্রেব্রুয়ারি, ২০২৪)
+- শরৎ সন্ধ্যা (১৯ সেপ্টেম্বর, ২০২৪)
+বিশেষ দ্রষ্টব্য: (প্রত্যেকটা অনুষ্ঠানের সংক্ষিপ্ত বিবরণী এবং ছবি সংযুক্ত থাকবে) "Gallery view"
+✓আলপনা চিত্রায়ন-
+সাংস্কৃতিক বিভিন্ন অনুষ্ঠানে চিত্রকর্ম
+২৪ এর গণঅভ্যুত্থান
+
+✓Award
+
+- volunteer award
+2022 & 2023
+- Best pitha stall award 2024
+
+✓Farewell ceremony (previous committee)
+
+✓profiling(present committee, previous committee history)
+✓Advisory Panel
+✓Moderator information, prev and previous
+✓member information's
+✓upcoming programs
+✓social activities
+✓Social links(yt, fb pages, LinkedIn, others)
+✓contact Information
+
+iv-> dwmtec art and photography club-> #Muhurto
+
+-[ ] Interface
+-[ ] Upcoming
+-exibition
+Muhurto X Rantuli
+
+```
+   -Art & photpgraphy
+     contest 2024
+
+    -wall arts & graffiti
+
+```
+
+- Gallery
+-previous committee
+-Running committee
+-Photography contest 2024
+-Collaborations-
+-Dwmtec inter depertment football turnament, sports club
+-pitha uthsob,Rangtuli
+- [ ]Activities
+-class promotion(5th batch)
+-monthly meetings
+-চিত্রকর্ম
+২৪ এর গণঅভ্যুত্থান
+-Campus Promotion
+-Hall fest 2024
+-Awards giving ceremony
+- For more update information
+
+```
+  -facebook
+
+```
+
+[https://www.facebook.com/muhurto2020?mibextid=ZbWKwL]
+
+```
+  -youtube
+
+```
+
+[https://youtube.com/@dwmtec2018?si=hmzVdD3hUuA2QzDi]
+
+but the research club, sports club, didn't provide any specific requirements.. so your duty  is to make it close similar with other club's requirements to help the designer to able to resuable design pattern or something.. and as for the sports club, here are the landing page requirements i think suitable, you can also add if i miss anything here..
+v-> dwmte sports club "DSC"-> landing page should feature recent tournaments, upcoming tournaments, galary view with a timeline type section from where we can do like see which date to which date a tournament occured, a sponsors for the tournaments as a banner/slider or what does it called? where we can say our proud sponsors or something,
+also current committe, memebers cards, a countdown for upcoming tournament, a voting section on which logged in student's can vote for which tournament they want,
+contact us, want to sponsor, these are the main requirements that i can think of.. if you think i might have missed out anything please feel free to add any new requirements in this...
+
+vi-> alumni association -> in the student face we want to show all the alumnii with a detail search option, where a running student can search alumni from his depertment senior, his district's , from which batch, from what type of job sector he is in or not, and if you think we can have more that is also acceptable.. also when role is alumni they can both search for student's info as running  students and also the alumni people it self,  we want to keep a table of alumini in the view, a detail searching, also we are thinking to have a social feed section where students can post job opening , seeking for a job, success stories, motivational stories and so much more...  then we want to have a public view on how to connect with like the alumni in linkked in and other platforms.. also if you think we have other things we can add here we should do it..
+
+so these are the main key things we looking for to implement in our platform.. but there are few more things which are important but not in the priority list but we want to also have those->
+
+1. a resume builder on the whole damn student activity from club achievement to results and such, we want to give like the latest trendy templates with drag and drop type editable like features to work with.. so students when the want to generate a resume they can come to the tool and start doing like adding things to the resume and also we want to do like scrap / summarize the whole journey as the student to the resume builder so they can easily generate resume's for them...
+2. for study material we want to create a notbot..well technically we have a notebot but it's facebook messenger specific.. but we want to add this to the platform where publicly anyone can download any notes, but only selected role's can submit new notes to the bot and such....
+3. a blood group, blood request posts dedicated section where we can do like ask for blood, help someone,
+
+these are the scrap's outline of the whole project.. let's now dive deep into the  internal working flow as dev to dev that you can understand and give me guidelines....
+
+roles-> super admin, admin of the whole platform, mods for the platoform, club specific admin, club specific mods,  a dynamic way to verify or rechognize student's are from each clubs and such, any user can be a like member of sports club and career club right? so idk for sure to have which way we should go to keep track, also whether they are alumni or not, that's role,  and also the key thing is when we sign up new user the role will be user, then after they go through a detailed student kyc verification we will grant them student privilage role ,
+clubs functionalities -> so basically all of the club's activities/landing page content will be managed from their respective dashboard, where admin, mods can change the content, update, add and do all of the tasks necessary to do..
+here, a basic new user work flow looks like->
+
+sign up-> kyc-> student->apply to clubs via invitation->pending approval-> mod/admin from club admin dashboard appoves new club members( there will  be an member join fee through sslcommerz which they will pay the price of the member fee.. here-> what we want to is like let's say a new batch comes to the campus and assume career club decides to open for new members.. so from the dashboard they can have a on / off switch to enable a route for accepting new members, also we should like generate a short link to let them share that link, and when a new memebr is logged in as student and click to the link they will be in the invitation page here-> first page we want to get the data of the student from our db to let the new member to show these are the info career club will have of you if you proceed to the next page or somethig.. and in the next step we will ask them to pay.. after payment we will re route them to the home page..and sent an email to the mods of the notification that a new member request is been sent or something..also in the club's admin dashoard we want to have a dedicated section to approave new memebrs, what we can do is like have a table format, wth a eye icon to see the details or such with action button to approve or reject with feedback or something..
+this should be for all of the clubs,  here's an interesting idea.. we want to create some dynamic templates for cards we can share with emaills when any events happen like thank you for joinign any club(here each club themed card will be generated which they can share in social media or something) , for achievements we should have a dedicated submit success story part so we can post from admin pannel and also generate a card to send them via email too...
+
+from club's general member's dashboard , we should also able to have some exciting features like they can search/find alumni , connect with other club members, submit articles, ask questions and whatever you feel necessaary to add..
+also i forgot to say one more thing about club admin dashboard, which is like each club has some committe members as organizing secretary, financial secretary, and general secretary or something relevant to handle the new  memeber approval, money related thigns should show in their dashboard, so what we can do is  we ccan assign club committe members as eacch of these roles to do their work through our platform... umn i might be missing some key features , feel free to add them where necessary
+
+now let's talk about how the alumni should work ->
+
+so basically when a student gradutes, from the alumni admin pannel we will share similar invitation form to join the alumni association.. there we will ask them a few more new questions before they can join as an alumni.
+
+also when we are visiting the alumni pages as student and off course they have to be in the student role, no user  role can access anything in  the  alumni ..cuz we don't want to expose anything.. they will have some privilage  of  postingi in the social platform..cuz we will  put  a  label  where  it will have  different priorities  ,  i  mean you might not have any job opening info or opportunity if you are a student right? you can post looking for a job, you can post success stories and such but not you can do a job post..
+
+also from admin dashboard of the alumni we   want to raise money to operate the whole platform, so we should have a  payment method there too, also, i am  thinking to make a ranking system for the alumni  who is paying money or anything to motivate others to do so type thing..also  a statistics where we can see how much money  is raised and such...
+
+
+since this is an educational platform and such , we want   to make this heavily socially interactive , as in students can share anything at ease to linkedin  , twitter, facebook as   their what should i say achievements and such
+
+
+
+
+
+since we wouldn't get that much  funding, i think we can't have that decent chat socket integration that easily, rather if we could connect  people from linkedin through linked in, for chatting what should we do? use any integrated whatsapp to talk to each other ? for an example let's say an alumni posted a job offer, people can comment about that job,..only the fourth year student and upper can actually  comment on the post..other can just see, react to that... but how will they communicate from there? completely going off the platform to whatsapp? or internal chat can  be done keeping in mind about privacy and encryption and  such??
+
+
+
+we  have a plan  of putting the social things, dashboards to a react  native app in future! and   i just saw few days ago nextjs' progressive web app..idk what that is but these are future us's problem to solve..
+
+
+for this i wanted to have like graphQL in the backend?!! but still don't know that though!! 
+this could be a way to learn these new technologies!!!!
+
+another rough idea i had was with the notebot, where i wanted to give the students an ability to create and summarize study materials for individual personilze way!!!
+
+
+this project of mine is a dream project for dedicating dwmtec for giving me  an opportunity to go for my deam of becoming a software developer which i couldn't do because of a lot of issues.. also the desingers who will work on this project will share their case study,  design showcase to public for future opportunities.. i am doing this hard project to showcase my caliber to the world and especially to the tech hiring community so after graduation  i can talk about this and stuff....
+
+
+
+
+
+
+
+what tech stack we should use? well i am thinking of nextjs for the frontend, backend i am not sure about rest api  or graphql so far but prisma orm with postgress.....future react native!!pwa!! those are not for now...
+
+but i want you to  ensure and inform you very stricctly  that our 90% of the users will be acccessing the platform from  their phone...so mobile responsiveness is the top main priority for us. so when you give the designer their brief please make sure to infrom them this....
+
+
+for alumni and the blood donation network we have, when we are requesting new alumni member's we have to explicitly   inform them whether they want to be  in the blood network or not..and each and every blood network  member have to update their updated location of staying  every 3 month so when we look for bloods availability we  can always get the updated data.. but for running student i think home town, then staying at dwmtec is enough....
+
+
+
+
+
+now let's talk about the kyc of application as student from user part... so, what we want to do is we will take an image of their id card which contains their name and their Roll number.. it's an unique number  and  we will also manually take their roll and name in input fields, and when creating a new student we will check whether this roll is possible or not and already exists or not.. 
+
+hey i missed a big  part!! they student dashbaord!!
+
+well this will be a rich content area.. here in the dashbaord we can do everything..see our designation on each club, how many years we are with the clubs, like a joined  in 4may 2022!  a badge as like executive member! 
+also will be students academic result info! the CGPA they currently have, and  a detail option of in which semester they got how much they got.. so this is a sensitive data so, we will try to put two privacy here, the Total CGPA is always public but if anyone wants to hide the detailed cgpa they can.. bbut this will hamper in the eye of alumni and job recruiters right? so how will we input the data? well we have to do two things i mean we want to do two thing.. one is in our mods we want to give some privilage to verify anyone's cgpa if false data reported..and both each student and mod can update the cgpa.. 
+
+we get some pdf for the result..but that pdf is kind of computer printed then taken pictures then shared in their server..!!  what we can really do some advance thing is every  day we can hit the goventment website to check of results publiished or not? can't we do that? then if the result if published we get the published ressult and process it? or notify the platform's student that the result is published!! well this is something i just came up with..!!
+
+
+
+in the main domain i wanted to have some way to showcase our lab facilities, what each lab represents our buildings and the whole campus..so you have to work on this part!! we have wet proccess lab, apparel lab, physics chemistry , yarn spinning, jute spinning, woven and knit , auditorium, library, ccomputer lab, a textile testing lab, we can do like the ui/dashboard or other way like wikipedia type so the students can write description about each lab and their equipments and such..so this is something will make the platform more engaging right?
+
+
+
+
+teachers , lecturers can write articles blogs if theywant , we want to  give them the floor too....
+
+
+in the homepage we want to showcase result achievements? like only the recent exam result's top students from each depertment. and a detail view more to see each year's/ or other batch's toppers..
+
+
+an brief card/testimonital type thing for alumni in the dwmtec landing page where the  alumni will be suffled, top senior batch's alumni will have two random slot, one for the lower batch and such , and this way we can show some info. not the full detail  to public like contact info and such , just meet the alumni , their image , where theyare working and their name.. but if logged in they can  see their email phn and see more to see the whole alumni members info!!(only as student role)
+
+
+
+
+
+
+
+for the images, let's say we took an image when we did the kyc..and students can change the image from students dashboard.. but the club's images are not changable.. but but what we want to do is to keep each club/parties dashboard their theme specific.. like  we will take the image and remove the bg and dynamicly create a card for each member to show in their dashbord when they are in the club dashboard?
+
+since i think i told you earlier that we will create some awesome cards for joining the club, getting a new promotion in the committe or for getting ajob , getting a good result! so, these card creation i want to dynamically!!
+
+
+
+now that i've shared the project overview.. please take a senior project ui/ux designer and a project manager and help me to generate a brief for the designer so that we are in the same picture..  try to be as detailed and helpful as possible. we are not most expert in ui/ux designing so this could sound overwhelming!!
+
